@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CROFFEE</title>
+    <link rel="shortcut icon" href="./images/CRO-FFEE_logo-01.svg" type="image/x-icon">
+    <style>
+        /* CSS Reset */
+        *{
+            box-sizing:border-box;
+            margin:0;
+            border:none;
+            padding:0;
+        }
+
+        /* Grid */
+        .회원가입{width:170px;}
+        .로그인{width:170px;}
+
+
+        /* 헤더 */
+
+        h1{
+            font-family:'나눔바른펜OTF';
+            font-weight: 900;
+            color: #342121;
+        }
+       /* 헤더 끝 */
+
+        /* 컨텐츠 */
+      .contents C1,C3{
+            font-family:'나눔스퀘어 네오 Heavy';
+            font-size: 25px;
+            color: #565656;
+            text-align: right;
+            float: right;
+            padding-right: 15px;
+        }
+
+        .contents C2{
+            font-family:'나눔고딕OTF 에코';
+            font-size: 41px;
+            font-weight: 900;
+            color: #ff5e00;
+            float: right;
+            padding-right: 15px;
+            padding-top: 3px;
+            margin-bottom: -5px;
+        }
+
+        .contents C4{
+            font-family:'나눔바른펜OTF';
+            font-size: 12px;
+            font-weight: 800;
+            color: #b77800; 
+            text-align: left;
+        }
+        #points{position: absolute;left: 171px;top: 617px;}
+        .dot {
+            width: 7px;
+            height: 7px;
+            margin-left: 2px;
+            margin-right: 2px; 
+            border-radius:6px; 
+            background-color:#342121;
+            display: inline-block;
+        }
+        #first-dot{background-color: #ff5e00;}
+        /* 컨텐츠 끝 */
+
+        /* 푸터 */
+        footer{
+            width: 170px;
+            height:50px;
+            padding:15px;
+        }
+        .회원가입{
+            height:47.5px;
+            border:5px solid #ffcc00;
+            border-radius: 25px;
+            background-color:#ffcc00;
+            float: left;
+            text-align:center;
+        }
+        .로그인{
+            height:47.5px;
+            margin-top: -48px;
+            margin-left: 180px;
+            margin-right:15px;
+            border:5px solid #ffcc00;
+            border-radius: 25px;
+            background-color:#ffffff;
+            float: left;
+            text-align:center;
+        }
+
+        footer .mr0{
+            margin-right:0;
+        }
+        footer a{
+            text-decoration: none;
+            font-family:'나눔바른펜OTF';
+            font-size:26px;
+            color:#342121;
+        }
+    </style>
+</head>
+<body>
+    <div style="width: 380px;margin: auto;position: relative;">
+        <!-- 헤더 -->
+        <div id="logo-box" alt="로고박스">
+            <a href="./INDEX.html">
+                <div style="position:absolute; top: 15px;left: 15px;">
+                        <img src="./images/logo.png">
+                </div>   
+                <h1 style="font-size: 30px;position:absolute;top:15px;left: 72px;">CRO-FFEE</h1>
+                <h1 style="font-size: 17px;position:absolute;top:47px;left: 72px;">croissant&coffee</h1>
+            </a>
+        </div>
+        <div id="HD-nav" alt="메뉴">
+            <div style="position: absolute;top: 25px;left: 332px;">
+                <img src="./images/nav.png" alt="메뉴">
+            </div>
+        </div>
+
+        <!--컨텐츠-->
+        <div class="contents">
+            <div id="쿠폰">
+            <div style="position: absolute; top:134px;left: 20px;">
+                <C1>크로피 모닝세트 출시 기념</C1>
+                <C2>COUPON EVENT</C2>
+                <C3>크로피 모닝 세트 먹고<br>쿠폰 적립하세요-!</C3>
+            </div>
+            <div style="position: absolute; top:552px;left: 20px;">
+                <C4>-쿠폰 적립 10번 완료 시 크로피 크로아상 1박스 증정.
+                    <br>-쿠폰 사용방법은 로그인 > 마이페이지 > 쿠폰조회로 확인 가능합니다.
+                    <br>-본 쿠폰은 회원 아이디로 지급되며, 로그인 후 사용이 가능합니다.
+                </C4>
+            </div>
+            </div>
+            <div id="points">
+                <div class="dot" id="first-dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+
+
+    <footer style="width: 380px;height: 50px;position: absolute; top: 653px;">
+        <div class="회원가입"><a href="#">REGISTER</a></div>
+        <div class="로그인 mr0"><a href="./LOGIN.html">LOG IN</a></div>
+    </footer>
+
+    
+    <div class="bak" alt="배경">
+        <img src="./images/BEST background.jpg">
+    </div>
+</body>
+</html>

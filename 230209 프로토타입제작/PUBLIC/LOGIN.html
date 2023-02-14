@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CROFFEE</title>
+    <link rel="shortcut icon" href="./images/CRO-FFEE_logo-01.svg" type="image/x-icon">
+    <style>
+        /* CSS Reset */
+        *{
+            box-sizing:border-box;
+            margin:0;
+            border:none;
+            padding:0;
+        }
+
+        /* Grid */
+        .회원가입{width:170px;}
+        .로그인{width:170px;}
+
+
+        /* 헤더 */
+
+        h1{
+            font-family:'나눔바른펜OTF';
+            font-weight: 900;
+            color: #342121;
+        }
+       /* 헤더 끝 */
+
+        /* 컨텐츠 */
+      #로그인{
+            position: absolute; top: 88px; left: 146px;
+            font-family:'나눔바른펜OTF';
+            font-size: 43px;
+            font-weight: 900;
+            color: #342121;
+        }
+
+        #ID{width: 40px;
+            height: 28px;
+            background-color: #ffcc00;
+            border-radius: 14px;
+            position: absolute; top: 249px; left: 15px;
+            font-family:'나눔바른펜OTF';
+            font-size: 20px;
+            font-weight: 900;
+            text-align: center;
+            color: #342121;
+        }
+        .ID-box{
+            width: 350px;
+            margin:0 auto;
+            border-bottom:3px solid #ffcc00;
+            position: absolute; top: 289px; left: 19px;
+            font-family: '나눔바른펜OTF';
+            font-size: 22px;
+            font-weight: 900;
+            color:#cccccc;
+
+        }
+
+        #Password{
+            width: 86px;
+            height: 28px;
+            background-color: #ffcc00;
+            border-radius: 14px;
+            position: absolute; top: 409px; left: 15px;
+            font-family:'나눔바른펜OTF';
+            font-size: 20px;
+            font-weight: 900;
+            text-align: center;
+            color: #342121;
+        }
+        .Password-box{
+            width: 350px;
+            margin:0 auto;
+            border-bottom:3px solid #ffcc00;
+            position: absolute; top: 472px; left: 19px;
+            font-family: '나눔바른펜OTF';
+            font-size: 22px;
+            font-weight: 900;
+            color:#cccccc;
+
+        }
+        #찾기{
+            position: absolute; top:509px; left: 220px;
+            font-family: '나눔스퀘어 네오 Bold';
+            font-weight: 900;
+            font-size: 12px;
+            color: #333333;
+        }
+
+       
+        #first-dot{background-color: #ff5e00;}
+        /* 컨텐츠 끝 */
+
+        /* 푸터 */
+        footer{
+            width: 170px;
+            height:50px;
+            padding:15px;
+        }
+        .로그인클릭{
+            width: 350px;
+            height: 50px;
+            border:8px solid #ffcc00;
+            border-radius: 25px;
+            background-color:#ffcc00;
+            text-align:center;
+        }
+
+        footer .mr0{
+            margin-right:0;
+        }
+        footer a{
+            text-decoration: none;
+            font-family:'나눔바른펜OTF';
+            font-size:26px;
+            color:#342121;
+        }
+
+        .가입유도{
+            position: absolute;
+            text-align: center;
+            font-family: '나눔스퀘어 네오 Bold';
+            font-weight: 900;
+            font-size: 12px;
+            color: #333333;
+            position: absolute; top:694px;left: 113px;
+        }        
+        .가입유도2{
+            position: absolute;
+            text-align: center;
+            font-family: '나눔스퀘어 네오 Bold';
+            font-weight: 900;
+            font-size: 12px;
+            color: #ff6000;
+            position: absolute; top:694px;left: 220px;
+        }
+        #유도{
+            position: absolute;top: -50px;
+        }
+    </style>
+</head>
+<body>
+    <div style="width: 380px; margin: auto; position: rleative;">
+         <div class="bak" alt="배경">
+            <img src="./images/LOGIN background.jpg">
+        </div>
+    <!-- 헤더 -->
+        <div id="logo-box" alt="로고박스">
+            <a href="./INDEX.html">
+                <div style="position:absolute; top: 15px;left: 15px;">
+                        <img src="./images/logo.png">
+                </div>   
+                <h1 style="font-size: 30px;position:absolute;top:15px;left: 72px;">CRO-FFEE</h1>
+                <h1 style="font-size: 17px;position:absolute;top:47px;left: 72px;">croissant&coffee</h1>
+            </a>
+        </div>
+        <div id="HD-nav" alt="메뉴">
+            <div style="position: absolute;top: 25px;left: 332px;">
+                <img src="./images/nav.png" alt="메뉴">
+            </div>
+        </div>
+
+        <!--컨텐츠-->
+        <div class="contents">
+            <div id="로그인">Login</div>
+                <div id="ID">ID</div>
+                <div class="ID-box">
+                <div id="이메일">croffee@gmail.com</div>
+            </div>
+            <div id="Password">Password</div>
+            <div class="Password-box">
+            </div>
+            <div id="찾기">아이디 찾기 / 패스워드 찾기</div>
+
+        </div>
+    </div>
+
+    <footer style="width: 380px;height: 50px;">
+        <div class="로그인클릭"><a href="#">LOGIN</a></div>
+        <div id="유도">
+            <div class="가입유도">회원이 아니신가요?</div>
+            <div class="가입유도2">회원가입</div>
+        </div>
+    </footer>
+    
+
+    
+   
+</body>
+</html>
